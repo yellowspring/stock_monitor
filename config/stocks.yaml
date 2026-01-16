@@ -1,0 +1,69 @@
+# Stock Monitor Configuration
+# Add stocks you want to monitor for crash probability
+
+# Market indices (used for model training - DO NOT REMOVE)
+market_indices:
+  - symbol: SPY
+    name: "S&P 500 ETF"
+    type: index
+  - symbol: QQQ
+    name: "Nasdaq 100 ETF"
+    type: index
+
+# Risk indicators (used for features - DO NOT REMOVE)
+risk_indicators:
+  - symbol: ^VIX
+    name: "VIX Volatility Index"
+  - symbol: ^SKEW
+    name: "SKEW Index"
+  - symbol: GLD
+    name: "Gold ETF"
+  - symbol: HYG
+    name: "High Yield Bond ETF"
+  - symbol: LQD
+    name: "Investment Grade Bond ETF"
+  - symbol: RSP
+    name: "Equal Weight S&P 500"
+
+# Individual stocks to monitor (ADD YOUR STOCKS HERE)
+# Each stock will get its own crash probability in the report
+monitored_stocks:
+  - symbol: TSLA
+    name: "Tesla"
+    enabled: true
+
+  - symbol: NVDA
+    name: "NVIDIA"
+    enabled: true
+
+  - symbol: AAPL
+    name: "Apple"
+    enabled: true
+
+  - symbol: MSFT
+    name: "Microsoft"
+    enabled: true
+
+  - symbol: AMZN
+    name: "Amazon"
+    enabled: true
+
+  - symbol: GOOGL
+    name: "Google"
+    enabled: true
+
+  - symbol: META
+    name: "Meta"
+    enabled: true
+
+# Alert thresholds
+thresholds:
+  high_risk: 60      # >= 60% = HIGH RISK
+  moderate_risk: 40  # >= 40% = MODERATE
+  low_risk: 25       # <= 25% = LOW RISK
+
+# Report settings
+report:
+  show_all_stocks: true
+  highlight_high_risk: true
+  include_market_context: true

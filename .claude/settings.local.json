@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(python -c:*)",
+      "Bash(pip install:*)",
+      "Bash(grep:*)",
+      "Bash(python:*)",
+      "Bash(source .env)",
+      "Bash(echo:*)",
+      "Bash(EMAIL_FROM=\"tao.zhang.1977@gmail.com\" EMAIL_PASSWORD=\"tsfpzpzbanxxcdlu\" EMAIL_TO=\"tao.zhang.1977@gmail.com,gao.yuan.77@gmail.com,9376269826@tmomail.net\" SMTP_SERVER=\"smtp.gmail.com\" SMTP_PORT=\"587\" python:*)",
+      "Bash(EMAIL_FROM=\"tao.zhang.1977@gmail.com\" EMAIL_PASSWORD=\"tsfpzpzbanxxcdlu\" EMAIL_TO=\"tao.zhang.1977@gmail.com,gao.yuan.77@gmail.com,9376269826@tmomail.net,9189179118@txt.voice.google.com\" SMTP_SERVER=\"smtp.gmail.com\" SMTP_PORT=\"587\" python monitor_with_alerts.py --threshold 0 --email)",
+      "Bash(EMAIL_FROM=\"tao.zhang.1977@gmail.com\" EMAIL_PASSWORD=\"tsfpzpzbanxxcdlu\" EMAIL_TO=\"tao.zhang.1977@gmail.com,gao.yuan.77@gmail.com,9189179118@txt.voice.google.com\" SMTP_SERVER=\"smtp.gmail.com\" SMTP_PORT=\"587\" python monitor_with_alerts.py --threshold 0 --email)",
+      "Bash(./daily_check.sh:*)",
+      "Bash(./setup_cron.sh:*)",
+      "Bash(crontab:*)",
+      "Bash(sudo ls:*)",
+      "Bash(source venv/bin/activate)",
+      "Bash(python3:*)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git rm:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
