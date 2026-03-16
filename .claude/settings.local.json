@@ -20,7 +20,13 @@
       "Bash(git init:*)",
       "Bash(git config:*)",
       "Bash(git rm:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git remote add:*)",
+      "Bash(git remote:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: Stock crash probability monitor\n\nFeatures:\n- XGBoost/LightGBM crash probability prediction\n- Probability calibration with Isotonic Regression\n- Individual stock risk assessment \\(TSLA, NVDA, AAPL, etc.\\)\n- Daily email reports with PDF attachments\n- Stress Score and False Calm detection\n- YAML-based stock configuration\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)",
+      "Bash(ssh-keyscan:*)",
+      "Bash(~/.ssh/known_hosts)"
     ]
   }
 }
