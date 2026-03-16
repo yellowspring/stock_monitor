@@ -19,6 +19,15 @@ class StockConfig:
 
 
 @dataclass
+class ETFConfig:
+    """Configuration for a single ETF"""
+    symbol: str
+    name: str
+    category: str = "benchmark"  # benchmark, sector, factor, fixed_income
+    enabled: bool = True
+
+
+@dataclass
 class ThresholdConfig:
     """Risk threshold configuration"""
     high_risk: float = 60.0
@@ -170,8 +179,40 @@ class ConfigLoader:
         return self.config.get('report', {
             'show_all_stocks': True,
             'highlight_high_risk': True,
-            'include_market_context': True
+            'include_market_context': True,
+            'include_etf_evaluation': True
         })
+
+    def get_monitored_etfs(self, enabled_only: bool = True) -> List[ETFConfig]:
+        """
+        Get monitored ETF configurations
+
+        Args:
+            enabled_only: Only return enabled ETFs
+
+        Returns:
+            List of ETFConfig objects
+        """
+        etfs = self.config.get('monitored_etfs', [])
+        result = []
+
+        for etf in etfs:
+            enabled = etf.get('enabled', True)
+            if enabled_only and not enabled:
+                continue
+
+            result.append(ETFConfig(
+                symbol=etf['symbol'],
+                name=etf['name'],
+                category=etf.get('category', 'benchmark'),
+                enabled=enabled
+            ))
+
+        return result
+
+    def get_etf_symbols(self, enabled_only: bool = True) -> List[str]:
+        """Get list of ETF symbols to evaluate"""
+        return [etf.symbol for etf in self.get_monitored_etfs(enabled_only)]
 
     def get_stock_name(self, symbol: str) -> str:
         """Get display name for a symbol"""

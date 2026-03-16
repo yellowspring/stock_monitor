@@ -26,7 +26,15 @@
       "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: Stock crash probability monitor\n\nFeatures:\n- XGBoost/LightGBM crash probability prediction\n- Probability calibration with Isotonic Regression\n- Individual stock risk assessment \\(TSLA, NVDA, AAPL, etc.\\)\n- Daily email reports with PDF attachments\n- Stress Score and False Calm detection\n- YAML-based stock configuration\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
       "Bash(git push:*)",
       "Bash(ssh-keyscan:*)",
-      "Bash(~/.ssh/known_hosts)"
+      "Bash(~/.ssh/known_hosts)",
+      "Bash(fc-list:*)",
+      "Read(//usr/share/fonts/truetype/**)",
+      "Bash(source:*)",
+      "Bash(bash:*)",
+      "Bash(/home/tom2zhang/workspace/proj_stock_monitor/venv/bin/python:*)",
+      "Bash(/home/tom2zhang/workspace/proj_stock_monitor/setup_cron.sh)",
+      "Bash(ls:*)",
+      "Bash(service cron status:*)"
     ]
   }
 }

@@ -1,0 +1,1377 @@
+{
+  "timestamp": "2026-03-02T02:03:32.208923",
+  "count": 50,
+  "results": [
+    {
+      "symbol": "NTES",
+      "name": "NetEase, Inc.",
+      "sector": "Communication Services",
+      "industry": "Electronic Gaming & Multimedia",
+      "score": 78,
+      "recommendation": "RESEARCH",
+      "pe_ratio": 15.068152,
+      "fcf_yield": 42.60100049750147,
+      "debt_to_ebitda": 0.16764790504047622,
+      "drawdown_52w": -0.27645952628666265,
+      "rsi_14d": 25.35649553115327,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4e\u6760\u6746 D/E<2",
+        "\u9ad8\u5229\u6da6\u7387 EBITDA>25%",
+        "\u4f4ePE 11",
+        "\u9ad8FCF\u6536\u76ca\u7387 43%",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.85",
+        "RSI\u8d85\u5356 25"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 30,
+        "valuation": 27,
+        "fear": 5,
+        "structure": 16
+      }
+    },
+    {
+      "symbol": "BBY",
+      "name": "Best Buy Co., Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "score": 69,
+      "recommendation": "RESEARCH",
+      "pe_ratio": 20.452147,
+      "fcf_yield": 8.788418750717666,
+      "debt_to_ebitda": 1.5726888758526705,
+      "drawdown_52w": -0.2812925950488245,
+      "rsi_14d": 22.84426658889987,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4e\u6760\u6746 D/E<2",
+        "\u6781\u4f4ePE 9",
+        "\u826f\u597dFCF 9%",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.88",
+        "RSI\u8d85\u5356 23"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 23,
+        "valuation": 25,
+        "fear": 5,
+        "structure": 16
+      }
+    },
+    {
+      "symbol": "EXPE",
+      "name": "Expedia Group, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Travel Services",
+      "score": 69,
+      "recommendation": "RESEARCH",
+      "pe_ratio": 21.986748,
+      "fcf_yield": 11.10121253289022,
+      "debt_to_ebitda": 2.8192091457754827,
+      "drawdown_52w": -0.2900262965501072,
+      "rsi_14d": 39.86201292055252,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u6781\u4f4ePE 9",
+        "\u9ad8FCF\u6536\u76ca\u7387 11%",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.98",
+        "RSI\u504f\u4f4e 40"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 22,
+        "valuation": 30,
+        "fear": 5,
+        "structure": 12
+      }
+    },
+    {
+      "symbol": "OI",
+      "name": "O-I Glass, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Packaging & Containers",
+      "score": 69,
+      "recommendation": "RESEARCH",
+      "pe_ratio": null,
+      "fcf_yield": 15.723946907305454,
+      "debt_to_ebitda": 5.113188787401575,
+      "drawdown_52w": -0.2075695009198361,
+      "rsi_14d": 22.76559515243838,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u6781\u4f4ePE 6",
+        "\u9ad8FCF\u6536\u76ca\u7387 16%",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.97",
+        "RSI\u8d85\u5356 23"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 18,
+        "valuation": 30,
+        "fear": 5,
+        "structure": 16
+      }
+    },
+    {
+      "symbol": "ZM",
+      "name": "Zoom Communications, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "score": 68,
+      "recommendation": "RESEARCH",
+      "pe_ratio": 14.385215,
+      "fcf_yield": 8.94705450025492,
+      "debt_to_ebitda": 0.024441607558990944,
+      "drawdown_52w": -0.24226274796118158,
+      "rsi_14d": 22.64830461987428,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4e\u6760\u6746 D/E<2",
+        "\u9ad8\u5229\u6da6\u7387 EBITDA>25%",
+        "\u4f4ePE 12",
+        "\u826f\u597dFCF 9%",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.90",
+        "RSI\u8d85\u5356 23"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 30,
+        "valuation": 22,
+        "fear": 0,
+        "structure": 16
+      }
+    },
+    {
+      "symbol": "PINC",
+      "name": "Premier, Inc.",
+      "sector": "Healthcare",
+      "industry": "Health Information Services",
+      "score": 67,
+      "recommendation": "RESEARCH",
+      "pe_ratio": 166.23529,
+      "fcf_yield": 12.141775492446744,
+      "debt_to_ebitda": 1.2029835821280332,
+      "drawdown_52w": Infinity,
+      "rsi_14d": null,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4e\u6760\u6746 D/E<2",
+        "\u9ad8\u5229\u6da6\u7387 EBITDA>25%",
+        "\u9ad8FCF\u6536\u76ca\u7387 12%",
+        "\u76c8\u5229\u9aa4\u964d \u9006\u5411\u673a\u4f1a"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 30,
+        "valuation": 19,
+        "fear": 8,
+        "structure": 10
+      }
+    },
+    {
+      "symbol": "GIS",
+      "name": "General Mills, Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "score": 66,
+      "recommendation": "RESEARCH",
+      "pe_ratio": 9.726881,
+      "fcf_yield": 10.268743435561987,
+      "debt_to_ebitda": 3.875617471164332,
+      "drawdown_52w": -0.29482494879689225,
+      "rsi_14d": 34.82758439253337,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4ePE 13",
+        "\u9ad8FCF\u6536\u76ca\u7387 10%",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.94",
+        "RSI\u504f\u4f4e 35"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 22,
+        "valuation": 27,
+        "fear": 5,
+        "structure": 12
+      }
+    },
+    {
+      "symbol": "AIG",
+      "name": "American International Group, I",
+      "sector": "Financial Services",
+      "industry": "Insurance - Diversified",
+      "score": 66,
+      "recommendation": "RESEARCH",
+      "pe_ratio": 14.823204,
+      "fcf_yield": 25.92217695053467,
+      "debt_to_ebitda": 1.2685605494949495,
+      "drawdown_52w": -0.07790128285527619,
+      "rsi_14d": 68.5348517072329,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4e\u6760\u6746 D/E<2",
+        "\u9ad8\u5229\u6da6\u7387 EBITDA>25%",
+        "\u6781\u4f4ePE 9",
+        "\u9ad8FCF\u6536\u76ca\u7387 26%"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 30,
+        "valuation": 30,
+        "fear": 3,
+        "structure": 3
+      }
+    },
+    {
+      "symbol": "FSLR",
+      "name": "First Solar, Inc.",
+      "sector": "Technology",
+      "industry": "Solar",
+      "score": 65,
+      "recommendation": "RESEARCH",
+      "pe_ratio": 15.134306,
+      "fcf_yield": 4.555151595435805,
+      "debt_to_ebitda": 0.3082362733293197,
+      "drawdown_52w": -0.3104653880136416,
+      "rsi_14d": 38.74072359916373,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4e\u6760\u6746 D/E<2",
+        "\u9ad8\u5229\u6da6\u7387 EBITDA>25%",
+        "\u6781\u4f4ePE 8",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.92",
+        "RSI\u504f\u4f4e 39"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 30,
+        "valuation": 20,
+        "fear": 3,
+        "structure": 12
+      }
+    },
+    {
+      "symbol": "SWKS",
+      "name": "Skyworks Solutions, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "score": 65,
+      "recommendation": "RESEARCH",
+      "pe_ratio": 22.827587,
+      "fcf_yield": 12.274311377464517,
+      "debt_to_ebitda": 1.2613936854865158,
+      "drawdown_52w": -0.3291348336178669,
+      "rsi_14d": 42.645571433293306,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4e\u6760\u6746 D/E<2",
+        "\u4f4ePE 12",
+        "\u9ad8FCF\u6536\u76ca\u7387 12%",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.87",
+        "\u5747\u7ebf\u6b7b\u53c9"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 26,
+        "valuation": 27,
+        "fear": 8,
+        "structure": 9
+      }
+    },
+    {
+      "symbol": "FOXA",
+      "name": "Fox Corporation",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "score": 65,
+      "recommendation": "RESEARCH",
+      "pe_ratio": 13.510791,
+      "fcf_yield": 7.36643600888217,
+      "debt_to_ebitda": 2.12142660621888,
+      "drawdown_52w": -0.2624689016528191,
+      "rsi_14d": 28.381151565618566,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4ePE 11",
+        "\u826f\u597dFCF 7%",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.92",
+        "RSI\u8d85\u5356 28"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 22,
+        "valuation": 22,
+        "fear": 5,
+        "structure": 16
+      }
+    },
+    {
+      "symbol": "WTW",
+      "name": "Willis Towers Watson Public Lim",
+      "sector": "Financial Services",
+      "industry": "Insurance Brokers",
+      "score": 65,
+      "recommendation": "RESEARCH",
+      "pe_ratio": 18.756607,
+      "fcf_yield": 6.568791315381809,
+      "debt_to_ebitda": 2.6284734555682143,
+      "drawdown_52w": -0.13258886039616635,
+      "rsi_14d": 38.06278937050088,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u9ad8\u5229\u6da6\u7387 EBITDA>25%",
+        "\u4f4ePE 14",
+        "\u826f\u597dFCF 7%",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.96",
+        "RSI\u504f\u4f4e 38"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 26,
+        "valuation": 22,
+        "fear": 5,
+        "structure": 12
+      }
+    },
+    {
+      "symbol": "QCOM",
+      "name": "QUALCOMM Incorporated",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "score": 64,
+      "recommendation": "WATCH",
+      "pe_ratio": 28.759598,
+      "fcf_yield": 6.855367692768061,
+      "debt_to_ebitda": 1.0765039758489552,
+      "drawdown_52w": -0.3052322860506853,
+      "rsi_14d": 59.668726837769604,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4e\u6760\u6746 D/E<2",
+        "\u9ad8\u5229\u6da6\u7387 EBITDA>25%",
+        "\u4f4ePE 13",
+        "\u826f\u597dFCF 7%",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.89"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 30,
+        "valuation": 22,
+        "fear": 6,
+        "structure": 6
+      }
+    },
+    {
+      "symbol": "CTSH",
+      "name": "Cognizant Technology Solutions ",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "score": 64,
+      "recommendation": "WATCH",
+      "pe_ratio": 14.129386,
+      "fcf_yield": 6.19756088943133,
+      "debt_to_ebitda": 0.30620762628966514,
+      "drawdown_52w": -0.2559133526076156,
+      "rsi_14d": 25.973005140596356,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4e\u6760\u6746 D/E<2",
+        "\u4f4ePE 10",
+        "\u826f\u597dFCF 6%",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.86",
+        "RSI\u8d85\u5356 26"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 26,
+        "valuation": 22,
+        "fear": 0,
+        "structure": 16
+      }
+    },
+    {
+      "symbol": "APTV",
+      "name": "Aptiv PLC",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Parts",
+      "score": 64,
+      "recommendation": "WATCH",
+      "pe_ratio": 98.05334,
+      "fcf_yield": 8.185718376803473,
+      "debt_to_ebitda": 2.537304013550184,
+      "drawdown_52w": -0.17305745346717075,
+      "rsi_14d": 31.350216294972384,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u6781\u4f4ePE 8",
+        "\u826f\u597dFCF 8%",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.96",
+        "RSI\u504f\u4f4e 31"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 22,
+        "valuation": 25,
+        "fear": 5,
+        "structure": 12
+      }
+    },
+    {
+      "symbol": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "score": 63,
+      "recommendation": "WATCH",
+      "pe_ratio": 7.1660376,
+      "fcf_yield": 15.917616862424838,
+      "debt_to_ebitda": 2.4541172405347775,
+      "drawdown_52w": -0.36902517956836467,
+      "rsi_14d": 42.28971233761893,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u6781\u4f4ePE 6",
+        "\u9ad8FCF\u6536\u76ca\u7387 16%",
+        "\u6df1\u5ea6\u7834\u5747 P/MA=0.78",
+        "\u5747\u7ebf\u6b7b\u53c9"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 19,
+        "valuation": 30,
+        "fear": 6,
+        "structure": 13
+      }
+    },
+    {
+      "symbol": "BIIB",
+      "name": "Biogen Inc.",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - General",
+      "score": 63,
+      "recommendation": "WATCH",
+      "pe_ratio": 21.822527,
+      "fcf_yield": 7.040147205157914,
+      "debt_to_ebitda": 1.8474345975297353,
+      "drawdown_52w": -0.05231953039025138,
+      "rsi_14d": 38.48426549402226,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4e\u6760\u6746 D/E<2",
+        "\u9ad8\u5229\u6da6\u7387 EBITDA>25%",
+        "\u4f4ePE 12",
+        "\u826f\u597dFCF 7%",
+        "RSI\u504f\u4f4e 38"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 30,
+        "valuation": 22,
+        "fear": 5,
+        "structure": 6
+      }
+    },
+    {
+      "symbol": "MHK",
+      "name": "Mohawk Industries, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Furnishings, Fixtures & Appliances",
+      "score": 62,
+      "recommendation": "WATCH",
+      "pe_ratio": 21.12479,
+      "fcf_yield": 8.533466402595263,
+      "debt_to_ebitda": 1.7982437069475292,
+      "drawdown_52w": -0.12478172032739712,
+      "rsi_14d": 35.9864298687594,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4e\u6760\u6746 D/E<2",
+        "\u4f4ePE 11",
+        "\u826f\u597dFCF 9%",
+        "\u76c8\u5229\u9aa4\u964d \u9006\u5411\u673a\u4f1a",
+        "RSI\u504f\u4f4e 36"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 23,
+        "valuation": 22,
+        "fear": 8,
+        "structure": 9
+      }
+    },
+    {
+      "symbol": "AFL",
+      "name": "AFLAC Incorporated",
+      "sector": "Financial Services",
+      "industry": "Insurance - Life",
+      "score": 62,
+      "recommendation": "WATCH",
+      "pe_ratio": 16.558651,
+      "fcf_yield": 8.743509883329974,
+      "debt_to_ebitda": 2.6283147428197053,
+      "drawdown_52w": -0.048524874956253294,
+      "rsi_14d": 39.090419895816574,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u9ad8\u5229\u6da6\u7387 EBITDA>25%",
+        "\u4f4ePE 15",
+        "\u826f\u597dFCF 9%",
+        "RSI\u504f\u4f4e 39"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 26,
+        "valuation": 22,
+        "fear": 5,
+        "structure": 9
+      }
+    },
+    {
+      "symbol": "CINF",
+      "name": "Cincinnati Financial Corporatio",
+      "sector": "Financial Services",
+      "industry": "Insurance - Property & Casualty",
+      "score": 62,
+      "recommendation": "WATCH",
+      "pe_ratio": 10.809492,
+      "fcf_yield": 24.005317020790503,
+      "debt_to_ebitda": 0.2767885091266681,
+      "drawdown_52w": -0.059046355039012045,
+      "rsi_14d": 35.28015266028579,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4e\u6760\u6746 D/E<2",
+        "\u9ad8\u5229\u6da6\u7387 EBITDA>25%",
+        "\u9ad8FCF\u6536\u76ca\u7387 24%",
+        "RSI\u504f\u4f4e 35"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 30,
+        "valuation": 23,
+        "fear": 0,
+        "structure": 9
+      }
+    },
+    {
+      "symbol": "IVZ",
+      "name": "Invesco Ltd",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "score": 62,
+      "recommendation": "WATCH",
+      "pe_ratio": null,
+      "fcf_yield": 6.400377726568925,
+      "debt_to_ebitda": 1.7435938,
+      "drawdown_52w": -0.10597984715835339,
+      "rsi_14d": 47.511615503466786,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4e\u6760\u6746 D/E<2",
+        "\u6781\u4f4ePE 9",
+        "\u826f\u597dFCF 6%"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 26,
+        "valuation": 25,
+        "fear": 5,
+        "structure": 6
+      }
+    },
+    {
+      "symbol": "HIG",
+      "name": "The Hartford Insurance Group, I",
+      "sector": "Financial Services",
+      "industry": "Insurance - Diversified",
+      "score": 62,
+      "recommendation": "WATCH",
+      "pe_ratio": 10.572824,
+      "fcf_yield": 14.79726495530407,
+      "debt_to_ebitda": 0.8683104097859328,
+      "drawdown_52w": -0.025397911203773788,
+      "rsi_14d": 44.72241436613765,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4e\u6760\u6746 D/E<2",
+        "\u6781\u4f4ePE 10",
+        "\u9ad8FCF\u6536\u76ca\u7387 15%"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 26,
+        "valuation": 30,
+        "fear": 0,
+        "structure": 6
+      }
+    },
+    {
+      "symbol": "CROX",
+      "name": "Crocs, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Footwear & Accessories",
+      "score": 62,
+      "recommendation": "WATCH",
+      "pe_ratio": null,
+      "fcf_yield": 9.427872409799267,
+      "debt_to_ebitda": 1.6671786162261255,
+      "drawdown_52w": -0.26155973796221377,
+      "rsi_14d": 56.149602051511074,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4e\u6760\u6746 D/E<2",
+        "\u6781\u4f4ePE 6",
+        "\u826f\u597dFCF 9%",
+        "\u76c8\u5229\u9aa4\u964d \u9006\u5411\u673a\u4f1a"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 26,
+        "valuation": 25,
+        "fear": 8,
+        "structure": 3
+      }
+    },
+    {
+      "symbol": "ZBRA",
+      "name": "Zebra Technologies Corporation",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "score": 61,
+      "recommendation": "WATCH",
+      "pe_ratio": 27.378973,
+      "fcf_yield": 5.803874864405964,
+      "debt_to_ebitda": 2.7380710010152285,
+      "drawdown_52w": -0.3649407236765988,
+      "rsi_14d": 37.0858463638932,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4ePE 11",
+        "\u76c8\u5229\u9aa4\u964d \u9006\u5411\u673a\u4f1a",
+        "\u6df1\u5ea6\u7834\u5747 P/MA=0.79",
+        "RSI\u504f\u4f4e 37",
+        "\u5747\u7ebf\u6b7b\u53c9"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 22,
+        "valuation": 17,
+        "fear": 11,
+        "structure": 16
+      }
+    },
+    {
+      "symbol": "MTCH",
+      "name": "Match Group, Inc.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "score": 61,
+      "recommendation": "WATCH",
+      "pe_ratio": 13.27731,
+      "fcf_yield": 11.099460955155708,
+      "debt_to_ebitda": 4.1678938705538,
+      "drawdown_52w": -0.1846746219614137,
+      "rsi_14d": 49.83499028490614,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u9ad8\u5229\u6da6\u7387 EBITDA>25%",
+        "\u6781\u4f4ePE 8",
+        "\u9ad8FCF\u6536\u76ca\u7387 11%",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.96"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 22,
+        "valuation": 30,
+        "fear": 0,
+        "structure": 9
+      }
+    },
+    {
+      "symbol": "FOX",
+      "name": "Fox Corporation",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "score": 61,
+      "recommendation": "WATCH",
+      "pe_ratio": 12.405275,
+      "fcf_yield": 7.310452003512502,
+      "debt_to_ebitda": 2.12142660621888,
+      "drawdown_52w": -0.2412174957592095,
+      "rsi_14d": 30.99884880195036,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4ePE 10",
+        "\u826f\u597dFCF 7%",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.93",
+        "RSI\u504f\u4f4e 31"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 22,
+        "valuation": 22,
+        "fear": 5,
+        "structure": 12
+      }
+    },
+    {
+      "symbol": "KHC",
+      "name": "The Kraft Heinz Company",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "score": 61,
+      "recommendation": "WATCH",
+      "pe_ratio": null,
+      "fcf_yield": 9.527336991786758,
+      "debt_to_ebitda": 3.80164117141522,
+      "drawdown_52w": -0.2279179380877529,
+      "rsi_14d": 49.61736233023616,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4ePE 11",
+        "\u826f\u597dFCF 10%",
+        "\u76c8\u5229\u9aa4\u964d \u9006\u5411\u673a\u4f1a",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.97"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 22,
+        "valuation": 22,
+        "fear": 8,
+        "structure": 9
+      }
+    },
+    {
+      "symbol": "GL",
+      "name": "Globe Life Inc.",
+      "sector": "Financial Services",
+      "industry": "Insurance - Life",
+      "score": 61,
+      "recommendation": "WATCH",
+      "pe_ratio": 10.316761,
+      "fcf_yield": 9.661186163462682,
+      "debt_to_ebitda": 1.8854553528542817,
+      "drawdown_52w": -0.04878535707872989,
+      "rsi_14d": 46.776691450048155,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4e\u6760\u6746 D/E<2",
+        "\u9ad8\u5229\u6da6\u7387 EBITDA>25%",
+        "\u6781\u4f4ePE 9",
+        "\u826f\u597dFCF 10%"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 30,
+        "valuation": 25,
+        "fear": 0,
+        "structure": 6
+      }
+    },
+    {
+      "symbol": "TROW",
+      "name": "T. Rowe Price Group, Inc.",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "score": 61,
+      "recommendation": "WATCH",
+      "pe_ratio": 10.241342,
+      "fcf_yield": 9.657164734372815,
+      "debt_to_ebitda": 0.15782743983103792,
+      "drawdown_52w": -0.1798730910401039,
+      "rsi_14d": 50.151961868771544,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4e\u6760\u6746 D/E<2",
+        "\u9ad8\u5229\u6da6\u7387 EBITDA>25%",
+        "\u6781\u4f4ePE 9",
+        "\u826f\u597dFCF 10%",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.94"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 30,
+        "valuation": 25,
+        "fear": 0,
+        "structure": 6
+      }
+    },
+    {
+      "symbol": "WEX",
+      "name": "WEX Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "score": 61,
+      "recommendation": "WATCH",
+      "pe_ratio": 17.613932,
+      "fcf_yield": 21.47206875850324,
+      "debt_to_ebitda": 5.628888417200366,
+      "drawdown_52w": -0.17442312601077548,
+      "rsi_14d": 40.60454667372124,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u9ad8\u5229\u6da6\u7387 EBITDA>25%",
+        "\u6781\u4f4ePE 8",
+        "\u9ad8FCF\u6536\u76ca\u7387 21%",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.97"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 22,
+        "valuation": 30,
+        "fear": 0,
+        "structure": 9
+      }
+    },
+    {
+      "symbol": "OZK",
+      "name": "Bank OZK",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "score": 61,
+      "recommendation": "WATCH",
+      "pe_ratio": 7.509678,
+      "fcf_yield": null,
+      "debt_to_ebitda": null,
+      "drawdown_52w": -0.11600042036854175,
+      "rsi_14d": 24.8962532453631,
+      "reason_tags": [
+        "\u51c0\u73b0\u91d1 NetCash",
+        "\u6781\u4f4ePE 7",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.98",
+        "RSI\u8d85\u5356 25"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 20,
+        "valuation": 22,
+        "fear": 3,
+        "structure": 16
+      }
+    },
+    {
+      "symbol": "GPOR",
+      "name": "Gulfport Energy Corporation",
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "score": 61,
+      "recommendation": "WATCH",
+      "pe_ratio": null,
+      "fcf_yield": 3.492776117044459,
+      "debt_to_ebitda": 0.8677924903621033,
+      "drawdown_52w": -0.0758260041179402,
+      "rsi_14d": 46.92148295776626,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4e\u6760\u6746 D/E<2",
+        "\u9ad8\u5229\u6da6\u7387 EBITDA>25%",
+        "\u6781\u4f4ePE 7"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 30,
+        "valuation": 20,
+        "fear": 5,
+        "structure": 6
+      }
+    },
+    {
+      "symbol": "SMPL",
+      "name": "The Simply Good Foods Company",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "score": 61,
+      "recommendation": "WATCH",
+      "pe_ratio": 18.955555,
+      "fcf_yield": 9.099943380023818,
+      "debt_to_ebitda": 1.8277760950497022,
+      "drawdown_52w": -0.5529350226897515,
+      "rsi_14d": 46.838399648368615,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4e\u6760\u6746 D/E<2",
+        "\u6781\u4f4ePE 8",
+        "\u826f\u597dFCF 9%",
+        "\u6df1\u5ea6\u56de\u8c03 \u8dcc55%",
+        "\u6df1\u5ea6\u7834\u5747 P/MA=0.67",
+        "\u5747\u7ebf\u6b7b\u53c9",
+        "\u6df1\u5ea6\u56de\u64a4 -55%"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 26,
+        "valuation": 25,
+        "fear": 12,
+        "structure": 13
+      }
+    },
+    {
+      "symbol": "CMCSA",
+      "name": "Comcast Corporation",
+      "sector": "Communication Services",
+      "industry": "Telecom Services",
+      "score": 60,
+      "recommendation": "WATCH",
+      "pe_ratio": 5.7439704,
+      "fcf_yield": 4.956899587760366,
+      "debt_to_ebitda": 2.8479664270151197,
+      "drawdown_52w": -0.09439053925763427,
+      "rsi_14d": 44.383531149129226,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u9ad8\u5229\u6da6\u7387 EBITDA>25%",
+        "\u6781\u4f4ePE 8",
+        "\u76c8\u5229\u9aa4\u964d \u9006\u5411\u673a\u4f1a"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 26,
+        "valuation": 20,
+        "fear": 8,
+        "structure": 6
+      }
+    },
+    {
+      "symbol": "LEN",
+      "name": "Lennar Corporation",
+      "sector": "Consumer Cyclical",
+      "industry": "Residential Construction",
+      "score": 60,
+      "recommendation": "WATCH",
+      "pe_ratio": 14.330827,
+      "fcf_yield": 43.0370994094855,
+      "debt_to_ebitda": 2.0516396563185224,
+      "drawdown_52w": -0.20022474288789013,
+      "rsi_14d": 50.68438832898676,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4ePE 13",
+        "\u9ad8FCF\u6536\u76ca\u7387 43%",
+        "\u76c8\u5229\u9aa4\u964d \u9006\u5411\u673a\u4f1a",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.97"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 19,
+        "valuation": 27,
+        "fear": 8,
+        "structure": 6
+      }
+    },
+    {
+      "symbol": "RF",
+      "name": "Regions Financial Corporation",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "score": 60,
+      "recommendation": "WATCH",
+      "pe_ratio": 12.1,
+      "fcf_yield": null,
+      "debt_to_ebitda": null,
+      "drawdown_52w": -0.11734857857160097,
+      "rsi_14d": 26.656628193192546,
+      "reason_tags": [
+        "\u51c0\u73b0\u91d1 NetCash",
+        "\u6781\u4f4ePE 10",
+        "RSI\u8d85\u5356 27"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 20,
+        "valuation": 22,
+        "fear": 5,
+        "structure": 13
+      }
+    },
+    {
+      "symbol": "PDD",
+      "name": "PDD Holdings Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Internet Retail",
+      "score": 60,
+      "recommendation": "WATCH",
+      "pe_ratio": 10.341974,
+      "fcf_yield": 59.38633625399462,
+      "debt_to_ebitda": 0.11458887306335729,
+      "drawdown_52w": -0.25593572461022285,
+      "rsi_14d": 45.70938110231684,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4e\u6760\u6746 D/E<2",
+        "\u6781\u4f4ePE 8",
+        "\u9ad8FCF\u6536\u76ca\u7387 59%",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.89",
+        "\u5747\u7ebf\u6b7b\u53c9"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 26,
+        "valuation": 30,
+        "fear": 0,
+        "structure": 9
+      }
+    },
+    {
+      "symbol": "GDDY",
+      "name": "GoDaddy Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "score": 59,
+      "recommendation": "WATCH",
+      "pe_ratio": 15.027586,
+      "fcf_yield": 10.83534793309659,
+      "debt_to_ebitda": 3.0777687163528302,
+      "drawdown_52w": -0.5496770742039118,
+      "rsi_14d": 39.23834011501877,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u9ad8\u5229\u6da6\u7387 EBITDA>25%",
+        "\u6781\u4f4ePE 7",
+        "\u9ad8FCF\u6536\u76ca\u7387 11%",
+        "\u6df1\u5ea6\u56de\u8c03 \u8dcc55%",
+        "\u6df1\u5ea6\u7834\u5747 P/MA=0.62",
+        "RSI\u504f\u4f4e 39",
+        "\u8d8b\u52bf\u8b66\u544a: \u53cc\u5747\u7ebf\u4e0b\u65b9",
+        "\u5747\u7ebf\u6b7b\u53c9",
+        "\u6df1\u5ea6\u56de\u64a4 -55%"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 26,
+        "valuation": 30,
+        "fear": 7,
+        "structure": 16
+      }
+    },
+    {
+      "symbol": "VZ",
+      "name": "Verizon Communications Inc.",
+      "sector": "Communication Services",
+      "industry": "Telecom Services",
+      "score": 59,
+      "recommendation": "WATCH",
+      "pe_ratio": 12.349753,
+      "fcf_yield": 8.152867272159591,
+      "debt_to_ebitda": 3.696501617730321,
+      "drawdown_52w": -0.006735343812818668,
+      "rsi_14d": 72.29335243494475,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u9ad8\u5229\u6da6\u7387 EBITDA>25%",
+        "\u6781\u4f4ePE 10",
+        "\u826f\u597dFCF 8%",
+        "\u76c8\u5229\u9aa4\u964d \u9006\u5411\u673a\u4f1a"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 26,
+        "valuation": 25,
+        "fear": 8,
+        "structure": 0
+      }
+    },
+    {
+      "symbol": "MO",
+      "name": "Altria Group, Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Tobacco",
+      "score": 59,
+      "recommendation": "WATCH",
+      "pe_ratio": 16.757282,
+      "fcf_yield": 6.328762269304768,
+      "debt_to_ebitda": 2.0433159663514013,
+      "drawdown_52w": -0.02084812333238872,
+      "rsi_14d": 69.73972305752176,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u9ad8\u5229\u6da6\u7387 EBITDA>25%",
+        "\u4f4ePE 12",
+        "\u826f\u597dFCF 6%",
+        "\u76c8\u5229\u9aa4\u964d \u9006\u5411\u673a\u4f1a"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 26,
+        "valuation": 22,
+        "fear": 8,
+        "structure": 3
+      }
+    },
+    {
+      "symbol": "ALL",
+      "name": "Allstate Corporation (The)",
+      "sector": "Financial Services",
+      "industry": "Insurance - Property & Casualty",
+      "score": 59,
+      "recommendation": "WATCH",
+      "pe_ratio": 5.6363635,
+      "fcf_yield": 15.898453338688043,
+      "debt_to_ebitda": 0.6142457049365406,
+      "drawdown_52w": -0.01028833092290225,
+      "rsi_14d": 58.33931538110452,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4e\u6760\u6746 D/E<2",
+        "\u6781\u4f4ePE 9",
+        "\u9ad8FCF\u6536\u76ca\u7387 16%"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 26,
+        "valuation": 30,
+        "fear": 0,
+        "structure": 3
+      }
+    },
+    {
+      "symbol": "FLO",
+      "name": "Flowers Foods, Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "score": 59,
+      "recommendation": "WATCH",
+      "pe_ratio": 24.7,
+      "fcf_yield": 10.595849381843387,
+      "debt_to_ebitda": 2.4255303250379163,
+      "drawdown_52w": -0.4838656982108488,
+      "rsi_14d": 20.78652919474557,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4ePE 12",
+        "\u9ad8FCF\u6536\u76ca\u7387 11%",
+        "\u6df1\u5ea6\u7834\u5747 P/MA=0.76",
+        "RSI\u8d85\u5356 21",
+        "\u5747\u7ebf\u6b7b\u53c9",
+        "\u5927\u5e45\u56de\u64a4 -48%",
+        "\u8d85\u5356\u4f46\u8d8b\u52bf\u5411\u4e0b"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 19,
+        "valuation": 27,
+        "fear": 8,
+        "structure": 20
+      }
+    },
+    {
+      "symbol": "RJF",
+      "name": "Raymond James Financial, Inc.",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "score": 58,
+      "recommendation": "WATCH",
+      "pe_ratio": 14.963833,
+      "fcf_yield": null,
+      "debt_to_ebitda": null,
+      "drawdown_52w": -0.13293529677301633,
+      "rsi_14d": 28.68961309800025,
+      "reason_tags": [
+        "\u51c0\u73b0\u91d1 NetCash",
+        "\u4f4ePE 11",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.95",
+        "RSI\u8d85\u5356 29"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 20,
+        "valuation": 19,
+        "fear": 3,
+        "structure": 16
+      }
+    },
+    {
+      "symbol": "DVN",
+      "name": "Devon Energy Corporation",
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "score": 58,
+      "recommendation": "WATCH",
+      "pe_ratio": 10.4388485,
+      "fcf_yield": 7.860617738872672,
+      "debt_to_ebitda": 1.1621188198906391,
+      "drawdown_52w": -0.05677145525364388,
+      "rsi_14d": 48.18180151785303,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4e\u6760\u6746 D/E<2",
+        "\u9ad8\u5229\u6da6\u7387 EBITDA>25%",
+        "\u4f4ePE 10",
+        "\u826f\u597dFCF 8%"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 30,
+        "valuation": 22,
+        "fear": 3,
+        "structure": 3
+      }
+    },
+    {
+      "symbol": "PNFP",
+      "name": "Pinnacle Financial Partners, In",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "score": 58,
+      "recommendation": "WATCH",
+      "pe_ratio": 11.57653,
+      "fcf_yield": null,
+      "debt_to_ebitda": null,
+      "drawdown_52w": -0.23858198209004894,
+      "rsi_14d": 28.750921955741617,
+      "reason_tags": [
+        "\u51c0\u73b0\u91d1 NetCash",
+        "\u6781\u4f4ePE 8",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.93",
+        "RSI\u8d85\u5356 29"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 20,
+        "valuation": 22,
+        "fear": 0,
+        "structure": 16
+      }
+    },
+    {
+      "symbol": "LKQ",
+      "name": "LKQ Corporation",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Parts",
+      "score": 58,
+      "recommendation": "WATCH",
+      "pe_ratio": 14.333334,
+      "fcf_yield": 8.952765972794213,
+      "debt_to_ebitda": 3.38528426444268,
+      "drawdown_52w": -0.23576831428998596,
+      "rsi_14d": 40.1342058505763,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u6781\u4f4ePE 10",
+        "\u826f\u597dFCF 9%",
+        "\u76c8\u5229\u9aa4\u964d \u9006\u5411\u673a\u4f1a"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 19,
+        "valuation": 25,
+        "fear": 8,
+        "structure": 6
+      }
+    },
+    {
+      "symbol": "PARR",
+      "name": "Par Pacific Holdings, Inc. Comm",
+      "sector": "Energy",
+      "industry": "Oil & Gas Refining & Marketing",
+      "score": 58,
+      "recommendation": "WATCH",
+      "pe_ratio": 9.19612,
+      "fcf_yield": 11.3317164468104,
+      "debt_to_ebitda": 1.8550916800958739,
+      "drawdown_52w": -0.11838849537783236,
+      "rsi_14d": 47.77384745575827,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4e\u6760\u6746 D/E<2",
+        "\u4f4ePE 11",
+        "\u9ad8FCF\u6536\u76ca\u7387 11%"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 23,
+        "valuation": 27,
+        "fear": 5,
+        "structure": 3
+      }
+    },
+    {
+      "symbol": "CALM",
+      "name": "Cal-Maine Foods, Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Farm Products",
+      "score": 58,
+      "recommendation": "WATCH",
+      "pe_ratio": 3.6801858,
+      "fcf_yield": 19.390620290936887,
+      "debt_to_ebitda": 0.0,
+      "drawdown_52w": -0.27812422871217957,
+      "rsi_14d": 67.80716023982164,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u51c0\u73b0\u91d1 NetCash",
+        "\u9ad8\u5229\u6da6\u7387 EBITDA>25%",
+        "\u9ad8FCF\u6536\u76ca\u7387 19%",
+        "\u76c8\u5229\u9aa4\u964d \u9006\u5411\u673a\u4f1a",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.95",
+        "\u5747\u7ebf\u6b7b\u53c9"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 30,
+        "valuation": 19,
+        "fear": 8,
+        "structure": 6
+      }
+    },
+    {
+      "symbol": "TEAM",
+      "name": "Atlassian Corporation",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "score": 57,
+      "recommendation": "WATCH",
+      "pe_ratio": null,
+      "fcf_yield": 7.690007832284515,
+      "debt_to_ebitda": -52.85710109622412,
+      "drawdown_52w": -0.7384599502216949,
+      "rsi_14d": 29.217053777926495,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u51c0\u73b0\u91d1 NetCash",
+        "\u4f4ePE 14",
+        "\u826f\u597dFCF 8%",
+        "\u6781\u5ea6\u6050\u60e7 \u8dcc74%",
+        "\u6df1\u5ea6\u7834\u5747 P/MA=0.46",
+        "RSI\u8d85\u5356 29",
+        "\u8d8b\u52bf\u8b66\u544a: \u53cc\u5747\u7ebf\u4e0b\u65b9",
+        "\u5747\u7ebf\u6b7b\u53c9",
+        "\u6df1\u5ea6\u56de\u64a4 -74%",
+        "\u8d85\u5356\u4f46\u8d8b\u52bf\u5411\u4e0b"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 20,
+        "valuation": 22,
+        "fear": 15,
+        "structure": 20
+      }
+    },
+    {
+      "symbol": "GPC",
+      "name": "Genuine Parts Company",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Parts",
+      "score": 57,
+      "recommendation": "WATCH",
+      "pe_ratio": 253.74469,
+      "fcf_yield": 4.08596841634611,
+      "debt_to_ebitda": 3.4406090179529585,
+      "drawdown_52w": -0.2131688568100082,
+      "rsi_14d": 18.102494206398475,
+      "reason_tags": [
+        "\u73b0\u91d1\u6d41\u6b63 FCF+",
+        "\u4f4ePE 14",
+        "\u5747\u7ebf\u4e0b\u65b9 P/MA=0.92",
+        "RSI\u8d85\u5356 18"
+      ],
+      "value_trap_warning": false,
+      "subscores": {
+        "survival": 19,
+        "valuation": 17,
+        "fear": 5,
+        "structure": 16
+      }
+    }
+  ]
+}

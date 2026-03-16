@@ -62,8 +62,388 @@ thresholds:
   moderate_risk: 40  # >= 40% = MODERATE
   low_risk: 25       # <= 25% = LOW RISK
 
+# ETFs to evaluate with ETF-4Q model
+# ETF评估使用4Q模型：宏观(Macro) × 质量(Quality) × 估值(Valuation) × 结构(Structure)
+# Categories: benchmark, sector, factor, fixed_income, international, thematic
+monitored_etfs:
+
+  # ╔══════════════════════════════════════════════════════════════════════════════╗
+  # ║                         BENCHMARK ETFs 基准ETF                                ║
+  # ║                    核心持仓锚定，长期持有，费率极低                              ║
+  # ╚══════════════════════════════════════════════════════════════════════════════╝
+
+  - symbol: VTI
+    name: "Total US Stock"
+    category: benchmark
+    enabled: true
+    # Vanguard全美股市ETF - 持有3500+美股，大中小盘全覆盖
+    # 费率0.03%，AUM超3000亿美元，最大股票ETF
+    # 适合：一站式美股配置，长期定投首选
+
+  - symbol: VOO
+    name: "S&P 500"
+    category: benchmark
+    enabled: true
+    # Vanguard标普500ETF - 苹果、微软、亚马逊、英伟达、谷歌
+    # 费率0.03%，追踪美国500大公司，市值加权
+    # 适合：核心美股配置，历史年化回报约10%
+
+  - symbol: VT
+    name: "Total World"
+    category: benchmark
+    enabled: true
+    # Vanguard全球股市ETF - 美股60%+国际40%，9000+股票
+    # 费率0.07%，一只ETF覆盖全球发达+新兴市场
+    # 适合：最简单的全球配置，不想选择区域的懒人方案
+
+  # ╔══════════════════════════════════════════════════════════════════════════════╗
+  # ║                         SECTOR ETFs 行业板块ETF                               ║
+  # ║                  SPDR行业ETF系列，精准押注特定行业                              ║
+  # ╚══════════════════════════════════════════════════════════════════════════════╝
+
+  # ---------- 成长型/稳定型板块 ----------
+  - symbol: XLK
+    name: "Technology"
+    category: sector
+    enabled: true
+    # SPDR科技板块ETF - 苹果20%、微软18%、英伟达15%、博通5%
+    # 费率0.09%，科技七巨头占比超60%
+    # 特点：高成长高波动，AI受益核心板块
+
+  - symbol: XLV
+    name: "Healthcare"
+    category: sector
+    enabled: true
+    # SPDR医疗健康ETF - 联合健康12%、礼来11%、强生8%、艾伯维7%
+    # 费率0.09%，制药+医疗器械+保险混合
+    # 特点：防御性+创新药成长，人口老龄化受益
+
+  - symbol: XLC
+    name: "Communication"
+    category: sector
+    enabled: true
+    # SPDR通信服务ETF - META 22%、谷歌20%、网飞5%、迪士尼4%
+    # 费率0.09%，社交媒体+流媒体+电信
+    # 特点：广告周期性强，数字广告双寡头垄断
+
+  # ---------- 周期性板块 (经济敏感) ----------
+  - symbol: XLE
+    name: "Energy"
+    category: sector
+    enabled: true
+    # SPDR能源板块ETF - 埃克森美孚23%、雪佛龙17%、康菲6%
+    # 费率0.09%，油气开采+炼化+服务
+    # 特点：高股息，油价敏感，通胀对冲
+
+  - symbol: XLF
+    name: "Financials"
+    category: sector
+    enabled: true
+    # SPDR金融板块ETF - 伯克希尔14%、摩根大通10%、Visa7%、万事达6%
+    # 费率0.09%，银行+保险+支付+资管
+    # 特点：利率上升受益，经济周期敏感
+
+  - symbol: XLI
+    name: "Industrials"
+    category: sector
+    enabled: true
+    # SPDR工业板块ETF - 通用电气5%、卡特彼勒5%、波音4%、联合太平洋4%
+    # 费率0.09%，航空航天+机械+运输+国防
+    # 特点：经济晴雨表，基建投资受益
+
+  - symbol: XLB
+    name: "Materials"
+    category: sector
+    enabled: true
+    # SPDR原材料板块ETF - 林德18%、空气化工10%、Freeport铜矿7%
+    # 费率0.09%，化工+金属+采矿+包装
+    # 特点：大宗商品敏感，通胀受益
+
+  - symbol: XLU
+    name: "Utilities"
+    category: sector
+    enabled: true
+    # SPDR公用事业ETF - NextEra 15%、南方电力8%、杜克能源7%
+    # 费率0.09%，电力+燃气+水务公司
+    # 特点：高股息3-4%，利率敏感，AI数据中心电力需求受益
+
+  - symbol: XLP
+    name: "Consumer Staples"
+    category: sector
+    enabled: true
+    # SPDR消费必需品ETF - 宝洁14%、好市多12%、可口可乐9%、沃尔玛8%
+    # 费率0.09%，日用品+食品+超市
+    # 特点：最防御板块，经济衰退抗跌
+
+  - symbol: XLY
+    name: "Consumer Disc"
+    category: sector
+    enabled: true
+    # SPDR消费周期品ETF - 亚马逊22%、特斯拉13%、家得宝9%、麦当劳5%
+    # 费率0.09%，电商+汽车+餐饮+零售
+    # 特点：经济敏感，消费者信心指标
+
+  - symbol: XLRE
+    name: "Real Estate"
+    category: sector
+    enabled: true
+    # SPDR房地产ETF - Prologis物流10%、American Tower通信塔8%、Equinix数据中心7%
+    # 费率0.09%，REITs信托
+    # 特点：高股息3-4%，利率敏感，数据中心REITs受益AI
+
+  # ╔══════════════════════════════════════════════════════════════════════════════╗
+  # ║                          FACTOR ETFs 因子ETF                                  ║
+  # ║                   基于学术研究的系统性风险因子敞口                               ║
+  # ╚══════════════════════════════════════════════════════════════════════════════╝
+
+  - symbol: VUG
+    name: "Growth"
+    category: factor
+    enabled: true
+    # Vanguard成长ETF - 苹果12%、微软11%、英伟达10%、亚马逊6%
+    # 费率0.04%，高营收增长+高估值公司
+    # 特点：牛市跑赢大盘，利率上升时承压
+
+  - symbol: VTV
+    name: "Value"
+    category: factor
+    enabled: true
+    # Vanguard价值ETF - 伯克希尔4%、摩根大通3%、埃克森3%、强生3%
+    # 费率0.04%，低P/E、低P/B公司
+    # 特点：熊市抗跌，利率上升受益
+
+  - symbol: QUAL
+    name: "Quality"
+    category: factor
+    enabled: true
+    # iShares质量因子ETF - 苹果、微软、英伟达、Visa、万事达
+    # 费率0.15%，筛选高ROE、低负债、稳定盈利公司
+    # 特点：全天候表现稳定，下跌保护好
+
+  - symbol: MTUM
+    name: "Momentum"
+    category: factor
+    enabled: true
+    # iShares动量因子ETF - 持有近期涨幅最大的股票
+    # 费率0.15%，追涨策略，每季度调仓
+    # 特点：趋势市场表现强，震荡市表现差
+
+  - symbol: USMV
+    name: "Low Volatility"
+    category: factor
+    enabled: true
+    # iShares低波动ETF - 公用事业、必需消费、医疗股居多
+    # 费率0.15%，持有历史波动率最低的股票
+    # 特点：熊市保护好，牛市跑输大盘
+
+  - symbol: SCHD
+    name: "Dividend"
+    category: factor
+    enabled: true
+    # Schwab高股息ETF - 家得宝、辉瑞、可口可乐、艾伯维、德州仪器
+    # 费率0.06%，筛选连续10年+派息+基本面强公司
+    # 特点：股息率3%+，价值投资者最爱，熊市抗跌
+
+  - symbol: VB
+    name: "Small Cap"
+    category: factor
+    enabled: true
+    # Vanguard小盘ETF - 持有1400+小市值公司
+    # 费率0.05%，市值约10-20亿美元公司
+    # 特点：高成长潜力，波动大，经济复苏初期表现好
+
+  - symbol: IJR
+    name: "S&P Small Cap"
+    category: factor
+    enabled: true
+    # iShares标普600小盘ETF - 有盈利门槛的质量筛选小盘股
+    # 费率0.06%，比VB更注重盈利能力
+    # 特点：小盘+质量筛选，比纯小盘风险略低
+
+  - symbol: VIG
+    name: "Dividend Growth"
+    category: factor
+    enabled: true
+    # Vanguard股息增长ETF - 微软、苹果、摩根大通、强生、Visa
+    # 费率0.06%，连续10年+提高股息的公司
+    # 特点：股息增长>高股息，长期复利效应强
+
+  # ╔══════════════════════════════════════════════════════════════════════════════╗
+  # ║                      FIXED INCOME ETFs 固定收益ETF                            ║
+  # ║                    债券配置，降低组合波动，避险功能                              ║
+  # ╚══════════════════════════════════════════════════════════════════════════════╝
+
+  - symbol: TLT
+    name: "Long-Term Treasury"
+    category: fixed_income
+    enabled: true
+    # iShares 20年+长期国债ETF - 久期约17年
+    # 费率0.15%，收益率约4.5%
+    # 特点：利率下降大涨，避险资产，股市暴跌时对冲
+
+  - symbol: VGSH
+    name: "Short-Term Treasury"
+    category: fixed_income
+    enabled: true
+    # Vanguard短期国债ETF - 1-3年国债，久期约2年
+    # 费率0.04%，收益率约4.5%
+    # 特点：几乎无波动，现金管理替代，利率敏感度极低
+
+  - symbol: SHY
+    name: "Short Treasury"
+    category: fixed_income
+    enabled: true
+    # iShares 1-3年国债ETF - 类似VGSH
+    # 费率0.15%，收益率约4.5%
+    # 特点：短期停泊资金，等待机会时持有
+
+  - symbol: BND
+    name: "Total Bond"
+    category: fixed_income
+    enabled: true
+    # Vanguard综合债券ETF - 国债+公司债+MBS混合
+    # 费率0.03%，收益率约4.5%，久期约6年
+    # 特点：一站式债券配置，中等久期
+
+  - symbol: LQD
+    name: "IG Corporate"
+    category: fixed_income
+    enabled: true
+    # iShares投资级公司债ETF - 苹果、微软、亚马逊等公司债
+    # 费率0.14%，收益率约5%
+    # 特点：收益率高于国债，信用风险适中
+
+  - symbol: TIP
+    name: "TIPS"
+    category: fixed_income
+    enabled: true
+    # iShares通胀保护债券ETF - 本金随CPI调整
+    # 费率0.19%，实际收益率约2%
+    # 特点：对抗通货膨胀的最佳工具，通胀上升时保值
+
+  # ╔══════════════════════════════════════════════════════════════════════════════╗
+  # ║                     INTERNATIONAL ETFs 国际市场ETF                            ║
+  # ║                    分散美股风险，全球配置                                       ║
+  # ╚══════════════════════════════════════════════════════════════════════════════╝
+
+  - symbol: VEA
+    name: "Developed Markets"
+    category: international
+    enabled: true
+    # Vanguard发达市场ETF - 日本22%、英国13%、法国9%、瑞士8%、德国7%
+    # 费率0.05%，持有4000+非美发达国家股票
+    # 特点：分散美股风险，估值低于美股，货币风险
+
+  - symbol: VWO
+    name: "Emerging Markets"
+    category: international
+    enabled: true
+    # Vanguard新兴市场ETF - 中国27%、印度20%、台湾19%、巴西5%
+    # 费率0.08%，持有5000+新兴市场股票
+    # 特点：高增长潜力，高波动，政治风险，货币风险
+
+  # ╔══════════════════════════════════════════════════════════════════════════════╗
+  # ║                       THEMATIC ETFs 主题型ETF                                 ║
+  # ║                  AI产业链全覆盖：芯片→软件→安全→基建→能源                        ║
+  # ╚══════════════════════════════════════════════════════════════════════════════╝
+
+  # ========== AI核心层：算力/芯片 ==========
+  - symbol: SMH
+    name: "Semiconductors"
+    category: thematic
+    enabled: true
+    # VanEck半导体ETF - 英伟达20%、台积电12%、博通10%、AMD 5%、ASML 5%
+    # 费率0.35%，25只半导体龙头
+    # 特点：AI算力核心，高Beta约1.5，波动大
+
+  - symbol: SOXX
+    name: "Semiconductors"
+    category: thematic
+    enabled: true
+    # iShares半导体ETF - 英伟达9%、博通8%、AMD 7%、高通6%、德州仪器5%
+    # 费率0.35%，30只半导体股，权重更分散
+    # 特点：vs SMH权重更均衡，台积电占比低(ADR限制)
+
+  # ========== AI应用层：软件/云/机器人 ==========
+  - symbol: IGV
+    name: "Software"
+    category: thematic
+    enabled: true
+    # iShares软件ETF - 微软9%、Salesforce8%、Adobe7%、甲骨文6%、ServiceNow5%
+    # 费率0.40%，SaaS+企业软件
+    # 特点：AI应用落地层，订阅收入稳定，高毛利
+
+  - symbol: WCLD
+    name: "Cloud Computing"
+    category: thematic
+    enabled: true
+    # WisdomTree云计算ETF - Snowflake、MongoDB、Datadog、Cloudflare
+    # 费率0.45%，纯云计算公司，不含传统科技巨头
+    # 特点：高成长高估值，盈利能力待验证
+
+  - symbol: BOTZ
+    name: "Robotics & AI"
+    category: thematic
+    enabled: true
+    # Global X机器人与AI ETF - 英伟达12%、直觉外科10%、ABB 6%、Keyence 6%
+    # 费率0.68%，工业机器人+AI+自动化
+    # 特点：制造业自动化+手术机器人，日本公司占比高
+
+  # ========== AI安全层：网络安全 ==========
+  - symbol: HACK
+    name: "Cybersecurity"
+    category: thematic
+    enabled: true
+    # First Trust网络安全ETF - CrowdStrike10%、Palo Alto8%、Fortinet7%、Zscaler5%
+    # 费率0.60%，30+网络安全公司
+    # 特点：AI时代安全刚需，订阅模式，企业支出优先级高
+
+  # ========== AI基建层：数据中心/电网 ==========
+  - symbol: PAVE
+    name: "Infrastructure"
+    category: thematic
+    enabled: true
+    # Global X基础设施ETF - 伊顿电气6%、Quanta电力5%、Vulcan建材5%、Martin Marietta5%
+    # 费率0.47%，100只基建相关股票
+    # 特点：数据中心建设+电网升级+道路桥梁，政府基建法案受益
+
+  - symbol: GRID
+    name: "Clean Energy Infra"
+    category: thematic
+    enabled: true
+    # First Trust清洁能源基础设施ETF - NextEra8%、Eaton6%、Schneider5%
+    # 费率0.60%，电网升级+储能+可再生能源设备
+    # 特点：AI电力需求→电网扩容→电力设备，长期结构性增长
+
+  # ========== AI能源层：核电/铀矿 ==========
+  - symbol: NLR
+    name: "Nuclear Energy"
+    category: thematic
+    enabled: true
+    # VanEck核能ETF - Constellation能源20%、Cameco铀矿12%、法国电力10%
+    # 费率0.60%，核电运营+铀矿+核电设备
+    # 特点：AI数据中心7x24小时稳定电力需求，清洁能源
+
+  - symbol: URA
+    name: "Uranium"
+    category: thematic
+    enabled: true
+    # Global X铀矿ETF - Cameco25%、Kazatomprom20%、NexGen铀矿8%
+    # 费率0.69%，纯铀矿开采公司
+    # 特点：核电燃料上游，铀价周期，高波动投机性强
+
+  # ========== 高风险创新 (谨慎配置) ==========
+  - symbol: ARKK
+    name: "Innovation"
+    category: thematic
+    enabled: false
+    # ARK创新ETF - 特斯拉11%、Coinbase8%、Roku6%、Block5%
+    # 费率0.75%，Cathie Wood主动管理
+    # 特点：高波动破坏性创新，2021峰值跌超70%，已禁用
+
 # Report settings
 report:
   show_all_stocks: true
   highlight_high_risk: true
   include_market_context: true
+  include_etf_evaluation: true

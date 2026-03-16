@@ -40,7 +40,9 @@ fi
 # Run crash monitor with 60% threshold using venv python directly
 # --daily-report: Always send a daily summary email
 # --email: Also send alert email if probability exceeds 60%
-"${VENV_PYTHON}" monitor_with_alerts.py --threshold 60 --email --sms --daily-report >> logs/alerts.log 2>&1
+# SMS disabled due to Twilio trial account limitations (error 30032)
+# To enable: upgrade Twilio account at https://www.twilio.com/console/billing
+"${VENV_PYTHON}" monitor_with_alerts.py --threshold 60 --email --daily-report >> logs/alerts.log 2>&1
 
 # Log completion
 echo "Check completed: $(date)" >> logs/alerts.log
